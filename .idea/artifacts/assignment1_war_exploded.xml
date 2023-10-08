@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="assignment1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/assignment1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="assignment1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.10.1" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20-Beta2" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.9.20-Beta2" />
+          <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20-Beta2" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:4.10.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio-jvm:3.0.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.31" />
+          <element id="library" level="project" name="Maven: com.squareup.moshi:moshi:1.13.0" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:2.10.0" />
+          <element id="library" level="project" name="Maven: com.squareup.moshi:moshi-kotlin:1.13.0" />
+          <element id="library" level="project" name="Maven: org.jetbrains.kotlin:kotlin-reflect:1.6.0" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.11.0" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.5" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/web/index.html" />
+    </root>
+  </artifact>
+</component>
